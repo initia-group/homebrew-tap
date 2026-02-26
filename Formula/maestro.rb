@@ -1,28 +1,28 @@
 class Maestro < Formula
   desc "TUI agent dashboard for Claude Code"
   homepage "https://github.com/initia-group/maestro"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/initia-group/maestro/releases/download/v#{version}/maestro-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "maestro-v0.1.2-aarch64-apple-darwin.tar.gz.sha256:de3b09a506e82341202f670ba121414dc2a1066050adb756ca1f77bc1c92b6c9"
+      sha256 "2a08844a6ee51fa7971e0ede131a63b631d41ede2ea15b33f8928f3bbfa24c9a"
     end
     on_intel do
       url "https://github.com/initia-group/maestro/releases/download/v#{version}/maestro-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "maestro-v0.1.2-x86_64-apple-darwin.tar.gz.sha256:dbb171094f88e6c524c036b4c4e9a00c354e3341600714d44f8c53aad50d5464"
+      sha256 "ea66426b3a34e825d7083a18244757b30b312102c37f6662a29dd2d5c28371af"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/initia-group/maestro/releases/download/v#{version}/maestro-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "maestro-v0.1.2-aarch64-unknown-linux-gnu.tar.gz.sha256:8db7fa6f5f27916e4b83856d926558e9c38d12e6c9fa0dd43e57ff8720c9311d"
+      sha256 "6a04dcf70fc20efee94e7f52cec9d293f1146c34a2fed36e2da81d5d5f7839a6"
     end
     on_intel do
       url "https://github.com/initia-group/maestro/releases/download/v#{version}/maestro-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "maestro-v0.1.2-x86_64-unknown-linux-gnu.tar.gz.sha256:2b7e8437cb621f359dacca457a550421f54b1df332864eb310a456ea1cf0e568"
+      sha256 "9eee4e0b26503a517b6e3d710c6282fc5664c92524c9c802ebae38e13142786c"
     end
   end
 
